@@ -9,7 +9,7 @@ These files accompany my medium article [Finally: Redirect http to https in GKEÂ
 
 As mentioned in the article, your GKE cluster needs to be running at least a recent version 1.17-gke for this to work.
 
-### Named IP adress
+### Named IP address
 
 You will need a static reserved ip address going by the name of `gke-https-redirect`. Create it like this:
 
