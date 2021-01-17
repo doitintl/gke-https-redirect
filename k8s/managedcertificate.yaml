@@ -1,0 +1,8 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: gke-https-redirect
+spec:
+  domains:
+  - gke-https-redirect.doit-playground.com
+  - www.gke-https-redirect.doit-playground.com
