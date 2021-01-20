@@ -1,7 +1,7 @@
 # gke-https-redirect
 Demonstration how to use the newly introduced https redirect support in native GKE ingress resources (GCLB).
 
-These files accompany my medium article [Finally: Redirect http to https in GKE ingress][1].
+These files accompany my medium article [At last: Redirect http to https in GKE ingress][1].
 
 ## Requirements
 
@@ -29,4 +29,4 @@ kubectl apply -f k8s/
 
 ---
 
-[1]: https://medium.com/@bernhard-weisshuhn/finally-redirect-http-to-https-in-gke-ingress-138d7420c1bc
+[1]: https://blog.doit-intl.com/at-last-redirect-http-to-https-in-gke-ingress-138d7420c1bc
